@@ -1,0 +1,1297 @@
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+ra
+pb
+pb
+pb
+pb
+pb
+pb
+ra
+pb
+pb
+pb
+ra
+pa
+max = 98
+min = 9
+sort loop #0
+ct = |0|  pop_cost = |0|
+----a----
+9
+98
+----b----
+18
+87
+62
+37
+47
+71
+76
+68
+29
+91
+77
+78
+17
+35
+23
+64
+24
+72
+BEFORE_min_cost = |0|
+elem =         |18|  index |0|  rrb |false|  ins_cost |1|  rra_ct |0|  ra_ct|1|  total_cost |0|
+cur_min_cost = |0|
+pop_val = |18|
+BEFORE_min_cost = |0|
+elem =         |87|  index |1|  rrb |false|  ins_cost |1|  rra_ct |0|  ra_ct|1|  total_cost |1|
+cur_min_cost = |0|
+pop_val = |18|
+BEFORE_min_cost = |0|
+elem =         |62|  index |2|  rrb |false|  ins_cost |1|  rra_ct |0|  ra_ct|1|  total_cost |2|
+cur_min_cost = |0|
+pop_val = |18|
+BEFORE_min_cost = |0|
+elem =         |37|  index |3|  rrb |false|  ins_cost |1|  rra_ct |0|  ra_ct|1|  total_cost |3|
+cur_min_cost = |0|
+pop_val = |18|
+BEFORE_min_cost = |0|
+elem =         |47|  index |4|  rrb |false|  ins_cost |1|  rra_ct |0|  ra_ct|1|  total_cost |4|
+cur_min_cost = |0|
+pop_val = |18|
+BEFORE_min_cost = |0|
+elem =         |71|  index |5|  rrb |false|  ins_cost |1|  rra_ct |0|  ra_ct|1|  total_cost |5|
+cur_min_cost = |0|
+pop_val = |18|
+BEFORE_min_cost = |0|
+elem =         |76|  index |6|  rrb |false|  ins_cost |1|  rra_ct |0|  ra_ct|1|  total_cost |6|
+cur_min_cost = |0|
+pop_val = |18|
+BEFORE_min_cost = |0|
+elem =         |68|  index |7|  rrb |false|  ins_cost |1|  rra_ct |0|  ra_ct|1|  total_cost |7|
+cur_min_cost = |0|
+pop_val = |18|
+BEFORE_min_cost = |0|
+elem =         |29|  index |8|  rrb |false|  ins_cost |1|  rra_ct |0|  ra_ct|1|  total_cost |8|
+cur_min_cost = |0|
+pop_val = |18|
+BEFORE_min_cost = |0|
+elem =         |91|  index |9|  rrb |true|  ins_cost |1|  rra_ct |0|  ra_ct|1|  total_cost |9|
+cur_min_cost = |0|
+pop_val = |18|
+BEFORE_min_cost = |0|
+elem =         |77|  index |8|  rrb |true|  ins_cost |1|  rra_ct |0|  ra_ct|1|  total_cost |8|
+cur_min_cost = |0|
+pop_val = |18|
+BEFORE_min_cost = |0|
+elem =         |78|  index |7|  rrb |true|  ins_cost |1|  rra_ct |0|  ra_ct|1|  total_cost |7|
+cur_min_cost = |0|
+pop_val = |18|
+BEFORE_min_cost = |0|
+elem =         |17|  index |6|  rrb |true|  ins_cost |1|  rra_ct |0|  ra_ct|1|  total_cost |6|
+cur_min_cost = |0|
+pop_val = |18|
+BEFORE_min_cost = |0|
+elem =         |35|  index |5|  rrb |true|  ins_cost |1|  rra_ct |0|  ra_ct|1|  total_cost |5|
+cur_min_cost = |0|
+pop_val = |18|
+BEFORE_min_cost = |0|
+elem =         |23|  index |4|  rrb |true|  ins_cost |1|  rra_ct |0|  ra_ct|1|  total_cost |4|
+cur_min_cost = |0|
+pop_val = |18|
+BEFORE_min_cost = |0|
+elem =         |64|  index |3|  rrb |true|  ins_cost |1|  rra_ct |0|  ra_ct|1|  total_cost |3|
+cur_min_cost = |0|
+pop_val = |18|
+BEFORE_min_cost = |0|
+elem =         |24|  index |2|  rrb |true|  ins_cost |1|  rra_ct |0|  ra_ct|1|  total_cost |2|
+cur_min_cost = |0|
+pop_val = |18|
+BEFORE_min_cost = |0|
+elem =         |72|  index |1|  rrb |true|  ins_cost |1|  rra_ct |0|  ra_ct|1|  total_cost |1|
+cur_min_cost = |0|
+pop_val = |18|
+FINAL_min_cost = |0|
+FINAL_pop_val = |18|
+val |18|   rra_ct |0|   ra_ct |1|
+{ roll A }
+{ do ra (>head)}
+sort loop #1
+ct = |1|  pop_cost = |0|
+----a----
+18
+98
+9
+----b----
+87
+62
+37
+47
+71
+76
+68
+29
+91
+77
+78
+17
+35
+23
+64
+24
+72
+BEFORE_min_cost = |0|
+elem =         |87|  index |0|  rrb |false|  ins_cost |1|  rra_ct |0|  ra_ct|1|  total_cost |0|
+cur_min_cost = |0|
+pop_val = |87|
+BEFORE_min_cost = |0|
+elem =         |62|  index |1|  rrb |false|  ins_cost |1|  rra_ct |0|  ra_ct|1|  total_cost |1|
+cur_min_cost = |0|
+pop_val = |87|
+BEFORE_min_cost = |0|
+elem =         |37|  index |2|  rrb |false|  ins_cost |1|  rra_ct |0|  ra_ct|1|  total_cost |2|
+cur_min_cost = |0|
+pop_val = |87|
+BEFORE_min_cost = |0|
+elem =         |47|  index |3|  rrb |false|  ins_cost |1|  rra_ct |0|  ra_ct|1|  total_cost |3|
+cur_min_cost = |0|
+pop_val = |87|
+BEFORE_min_cost = |0|
+elem =         |71|  index |4|  rrb |false|  ins_cost |1|  rra_ct |0|  ra_ct|1|  total_cost |4|
+cur_min_cost = |0|
+pop_val = |87|
+BEFORE_min_cost = |0|
+elem =         |76|  index |5|  rrb |false|  ins_cost |1|  rra_ct |0|  ra_ct|1|  total_cost |5|
+cur_min_cost = |0|
+pop_val = |87|
+BEFORE_min_cost = |0|
+elem =         |68|  index |6|  rrb |false|  ins_cost |1|  rra_ct |0|  ra_ct|1| ra
+pa
+ total_cost |6|
+cur_min_cost = |0|
+pop_val = |87|
+BEFORE_min_cost = |0|
+elem =         |29|  index |7|  rrb |false|  ins_cost |1|  rra_ct |0|  ra_ct|1|  total_cost |7|
+cur_min_cost = |0|
+pop_val = |87|
+BEFORE_min_cost = |0|
+elem =         |91|  index |8|  rrb |false|  ins_cost |1|  rra_ct |0|  ra_ct|1|  total_cost |8|
+cur_min_cost = |0|
+pop_val = |87|
+BEFORE_min_cost = |0|
+elem =         |77|  index |8|  rrb |true|  ins_cost |1|  rra_ct |0|  ra_ct|1|  total_cost |8|
+cur_min_cost = |0|
+pop_val = |87|
+BEFORE_min_cost = |0|
+elem =         |78|  index |7|  rrb |true|  ins_cost |1|  rra_ct |0|  ra_ct|1|  total_cost |7|
+cur_min_cost = |0|
+pop_val = |87|
+BEFORE_min_cost = |0|
+elem =         |17|  index |6|  rrb |true|  ins_cost |1|  rra_ct |0|  ra_ct|0|  total_cost |7|
+cur_min_cost = |0|
+pop_val = |87|
+BEFORE_min_cost = |0|
+elem =         |35|  index |5|  rrb |true|  ins_cost |1|  rra_ct |0|  ra_ct|1|  total_cost |5|
+cur_min_cost = |0|
+pop_val = |87|
+BEFORE_min_cost = |0|
+elem =         |23|  index |4|  rrb |true|  ins_cost |1|  rra_ct |0|  ra_ct|1|  total_cost |4|
+cur_min_cost = |0|
+pop_val = |87|
+BEFORE_min_cost = |0|
+elem =         |64|  index |3|  rrb |true|  ins_cost |1|  rra_ct |0|  ra_ct|1|  total_cost |3|
+cur_min_cost = |0|
+pop_val = |87|
+BEFORE_min_cost = |0|
+elem =         |24|  index |2|  rrb |true|  ins_cost |1|  rra_ct |0|  ra_ct|1|  total_cost |2|
+cur_min_cost = |0|
+pop_val = |87|
+BEFORE_min_cost = |0|
+elem =         |72|  index |1|  rrb |true|  ins_cost |1|  rra_ct |0|  ra_ct|1|  total_cost |1|
+cur_min_cost = |0|
+pop_val = |87|
+FINAL_min_cost = |0|
+FINAL_pop_val = |87|
+val |87|   rra_ct |0|   ra_ct |1|
+{ roll A }
+{ do ra (>head)}
+sort loop #2
+ct = |2|  pop_cost = |0|
+----a----
+87
+98
+9
+18
+----b----
+62
+37
+47
+71
+76
+68
+29
+91
+77
+78
+17
+35
+23
+64
+24
+72
+BEFORE_min_cost = |0|
+elem =         |62|  index |0|  rrb |false|  ins_cost |1|  rra_ct |0|  ra_ct|0|  total_cost |1|
+cur_min_cost = |0|
+pop_val = |62|
+BEFORE_min_cost = |0|
+elem =         |37|  index |1|  rrb |false|  ins_cost |1|  rra_ct |0|  ra_ct|0|  total_cost |2|
+cur_min_cost = |0|
+pop_val = |62|
+BEFORE_min_cost = |0|
+elem =         |47|  index |2|  rrb |false|  ins_cost |1|  rra_ct |0|  ra_ct|0|  total_cost |3|
+cur_min_cost = |0|
+pop_val = |62|
+BEFORE_min_cost = |0|
+elem =         |71|  index |3|  rrb |false|  ins_cost |1|  rra_ct |0|  ra_ct|0|  total_cost |4|
+cur_min_cost = |0|
+pop_val = |62|
+BEFORE_min_cost = |0|
+elem =         |76|  index |4|  rrb |false|  ins_cost |1|  rra_ct |0|  ra_ct|0|  total_cost |5|
+cur_min_cost = |0|
+pop_val = |62|
+BEFORE_min_cost = |0|
+elem =         |68|  index |5|  rrb |false|  ins_cost |1|  rra_ct |0|  ra_ct|0|  total_cost |6|
+cur_min_cost = |0|
+pop_val = |62|
+BEFORE_min_cost = |0|
+elem =         |29|  index |6|  rrb |false|  ins_cost |1|  rra_ct |0|  ra_ct|0|  total_cost |7|
+cur_min_cost = |0|
+pop_val = |62|
+BEFORE_min_cost = |0|
+elem =         |91|  index |7|  rrb |false|  ins_cost |1|  rra_ct |0|  ra_ct|1|  total_cost |7|
+cur_min_cost = |0|
+pop_val = |62|
+BEFORE_min_cost = |0|
+elem =         |77|  index |8|  rrb |true|  ins_cost |1|  rra_ct |0|  ra_ct|0|  total_cost |9|
+cur_min_cost = |0|
+pop_val = |62|
+BEFORE_min_cost = |0|
+elem =         |78|  index |7|  rrb |true|  ins_cost |1|  rra_ct |0|  ra_ct|0|  total_cost |8|
+cur_min_cost = |0|
+pop_val = |62|
+BEFORE_min_cost = |0|
+elem =         |17|  index |6|  rrb |true|  ins_cost |1|  rra_ct |1|  ra_ct|0|  total_cost |6|
+cur_min_cost = |0|
+pop_val = |62|
+BEFORE_min_cost = |0|
+elem =         |35|  index |5|  rrb |true|  ins_cost |1|  rra_ct |0|  ra_ct|0|  total_cost |6|
+cur_min_cost = |0|
+pop_val = |62|
+BEFORE_min_cost = |0|
+elem =         |23|  index |4|  rrb |true|  ins_cost |1|  rra_ct |0|  ra_ct|0|  total_cost |5|
+cur_min_cost = |0|
+pop_val = |62|
+BEFORE_min_cost = |0|
+elem =         |64|  index |3|  rrb |true|  ins_cost |1|  rra_ct |0|  ra_ct|0|  total_cost |4|
+cur_min_cost = |0|
+pop_val = |62|
+BEFORE_min_cost = |0|
+elem =         |24|  index |2|  rrb |true|  ins_cost |1|  rra_ct |0|  ra_ct|0|  total_cost |3|
+cur_min_cost = |0|
+pop_val = |62|
+BEFORE_min_cost = |0|
+elem =         |72pa
+pa
+|  index |1|  rrb |true|  ins_cost |1|  rra_ct |0|  ra_ct|0|  total_cost |2|
+cur_min_cost = |0|
+pop_val = |62|
+FINAL_min_cost = |0|
+FINAL_pop_val = |62|
+val |62|   rra_ct |0|   ra_ct |0|
+sort loop #3
+ct = |3|  pop_cost = |0|
+----a----
+62
+87
+98
+9
+18
+----b----
+37
+47
+71
+76
+68
+29
+91
+77
+78
+17
+35
+23
+64
+24
+72
+BEFORE_min_cost = |0|
+elem =         |37|  index |0|  rrb |false|  ins_cost |1|  rra_ct |0|  ra_ct|0|  total_cost |1|
+cur_min_cost = |0|
+pop_val = |37|
+BEFORE_min_cost = |0|
+elem =         |47|  index |1|  rrb |false|  ins_cost |1|  rra_ct |0|  ra_ct|0|  total_cost |2|
+cur_min_cost = |0|
+pop_val = |37|
+BEFORE_min_cost = |0|
+elem =         |71|  index |2|  rrb |false|  ins_cost |1|  rra_ct |0|  ra_ct|1|  total_cost |2|
+cur_min_cost = |0|
+pop_val = |37|
+BEFORE_min_cost = |0|
+elem =         |76|  index |3|  rrb |false|  ins_cost |1|  rra_ct |0|  ra_ct|1|  total_cost |3|
+cur_min_cost = |0|
+pop_val = |37|
+BEFORE_min_cost = |0|
+elem =         |68|  index |4|  rrb |false|  ins_cost |1|  rra_ct |0|  ra_ct|1|  total_cost |4|
+cur_min_cost = |0|
+pop_val = |37|
+BEFORE_min_cost = |0|
+elem =         |29|  index |5|  rrb |false|  ins_cost |1|  rra_ct |0|  ra_ct|0|  total_cost |6|
+cur_min_cost = |0|
+pop_val = |37|
+BEFORE_min_cost = |0|
+elem =         |91|  index |6|  rrb |false|  ins_cost |2|  rra_ct |0|  ra_ct|2|  total_cost |6|
+cur_min_cost = |0|
+pop_val = |37|
+BEFORE_min_cost = |0|
+elem =         |77|  index |7|  rrb |false|  ins_cost |1|  rra_ct |0|  ra_ct|1|  total_cost |7|
+cur_min_cost = |0|
+pop_val = |37|
+BEFORE_min_cost = |0|
+elem =         |78|  index |7|  rrb |true|  ins_cost |1|  rra_ct |0|  ra_ct|1|  total_cost |7|
+cur_min_cost = |0|
+pop_val = |37|
+BEFORE_min_cost = |0|
+elem =         |17|  index |6|  rrb |true|  ins_cost |1|  rra_ct |1|  ra_ct|0|  total_cost |6|
+cur_min_cost = |0|
+pop_val = |37|
+BEFORE_min_cost = |0|
+elem =         |35|  index |5|  rrb |true|  ins_cost |1|  rra_ct |0|  ra_ct|0|  total_cost |6|
+cur_min_cost = |0|
+pop_val = |37|
+BEFORE_min_cost = |0|
+elem =         |23|  index |4|  rrb |true|  ins_cost |1|  rra_ct |0|  ra_ct|0|  total_cost |5|
+cur_min_cost = |0|
+pop_val = |37|
+BEFORE_min_cost = |0|
+elem =         |64|  index |3|  rrb |true|  ins_cost |1|  rra_ct |0|  ra_ct|1|  total_cost |3|
+cur_min_cost = |0|
+pop_val = |37|
+BEFORE_min_cost = |0|
+elem =         |24|  index |2|  rrb |true|  ins_cost |1|  rra_ct |0|  ra_ct|0|  total_cost |3|
+cur_min_cost = |0|
+pop_val = |37|
+BEFORE_min_cost = |0|
+elem =         |72|  index |1|  rrb |true|  ins_cost |1|  rra_ct |0|  ra_ct|1|  total_cost |1|
+cur_min_cost = |0|
+pop_val = |37|
+FINAL_min_cost = |0|
+FINAL_pop_val = |37|
+val |37|   rra_ct |0|   ra_ct |0|
+sort loop #4
+ct = |4|  pop_cost = |0|
+----a----
+37
+62
+87
+98
+9
+18
+----b----
+47
+71
+76
+68
+29
+91
+77
+78
+17
+35
+23
+64
+24
+72
+BEFORE_min_cost = |0|
+elem =         |47|  index |0|  rrb |false|  ins_cost |1|  rra_ct |0|  ra_ct|1|  total_cost |0|
+cur_min_cost = |0|
+pop_val = |47|
+BEFORE_min_cost = |0|
+elem =         |71|  index |1|  rrb |false|  ins_cost |2|  rra_ct |0|  ra_ct|2|  total_cost |1|
+cur_min_cost = |0|
+pop_val = |47|
+BEFORE_min_cost = |0|
+elem =         |76|  index |2|  rrb |false|  ins_cost |2|  rra_ct |0|  ra_ct|2|  total_cost |2|
+cur_min_cost = |0|
+pop_val = |47|
+BEFORE_min_cost = |0|
+elem =         |68|  index |3|  rrb |false|  ins_cost |2|  rra_ct |0|  ra_ct|2|  total_cost |3|
+cur_min_cost = |0|
+pop_val = |47|
+BEFORE_min_cost = |0|
+elem =         |29|  index |4|  rrb |false|  ins_cost |1|  rra_ct |0|  ra_ct|0|  total_cost |5|
+cur_min_cost = |0|
+pop_val = |47|
+BEFORE_min_cost = |0|
+elem =         |91|  index |5|  rrb |false|  ins_cost |3|  rra_ct |0|  ra_ct|3|  total_cost |5|
+cur_min_cost = |0|
+pop_val = |47|
+BEFORE_min_cost = |0|
+elem =         |77|  index |6|  rrb |false|  ins_cost |2|  rra_ct |0|  ra_ct|2|  total_cost |6|
+cur_min_cost = |0|
+pop_val = |47|
+BEFORE_min_cost = |0|
+elem =         |78|  index |7|  rrb |true|  ins_cost |2|  rra_ct |0|  ra_ct|2|  total_cost |7|
+cur_min_cost = |0|
+pop_val = |47|
+BEFORE_min_cost = |0|
+elem =         |17|  index |6|  rrb |true|  ins_cost |1|  rra_ct |1|  ra_ct|0|  total_cosra
+pa
+ra
+ra
+pa
+t |6|
+cur_min_cost = |0|
+pop_val = |47|
+BEFORE_min_cost = |0|
+elem =         |35|  index |5|  rrb |true|  ins_cost |1|  rra_ct |0|  ra_ct|0|  total_cost |6|
+cur_min_cost = |0|
+pop_val = |47|
+BEFORE_min_cost = |0|
+elem =         |23|  index |4|  rrb |true|  ins_cost |1|  rra_ct |0|  ra_ct|0|  total_cost |5|
+cur_min_cost = |0|
+pop_val = |47|
+BEFORE_min_cost = |0|
+elem =         |64|  index |3|  rrb |true|  ins_cost |2|  rra_ct |0|  ra_ct|2|  total_cost |3|
+cur_min_cost = |0|
+pop_val = |47|
+BEFORE_min_cost = |0|
+elem =         |24|  index |2|  rrb |true|  ins_cost |1|  rra_ct |0|  ra_ct|0|  total_cost |3|
+cur_min_cost = |0|
+pop_val = |47|
+BEFORE_min_cost = |0|
+elem =         |72|  index |1|  rrb |true|  ins_cost |2|  rra_ct |0|  ra_ct|2|  total_cost |1|
+cur_min_cost = |0|
+pop_val = |47|
+FINAL_min_cost = |0|
+FINAL_pop_val = |47|
+val |47|   rra_ct |0|   ra_ct |1|
+{ roll A }
+{ do ra (>head)}
+sort loop #5
+ct = |5|  pop_cost = |0|
+----a----
+47
+62
+87
+98
+9
+18
+37
+----b----
+71
+76
+68
+29
+91
+77
+78
+17
+35
+23
+64
+24
+72
+BEFORE_min_cost = |0|
+elem =         |71|  index |0|  rrb |false|  ins_cost |2|  rra_ct |0|  ra_ct|2|  total_cost |0|
+cur_min_cost = |0|
+pop_val = |71|
+BEFORE_min_cost = |0|
+elem =         |76|  index |1|  rrb |false|  ins_cost |2|  rra_ct |0|  ra_ct|2|  total_cost |1|
+cur_min_cost = |0|
+pop_val = |71|
+BEFORE_min_cost = |0|
+elem =         |68|  index |2|  rrb |false|  ins_cost |2|  rra_ct |0|  ra_ct|2|  total_cost |2|
+cur_min_cost = |0|
+pop_val = |71|
+BEFORE_min_cost = |0|
+elem =         |29|  index |3|  rrb |false|  ins_cost |1|  rra_ct |1|  ra_ct|0|  total_cost |4|
+cur_min_cost = |0|
+pop_val = |71|
+BEFORE_min_cost = |0|
+elem =         |91|  index |4|  rrb |false|  ins_cost |3|  rra_ct |0|  ra_ct|3|  total_cost |4|
+cur_min_cost = |0|
+pop_val = |71|
+BEFORE_min_cost = |0|
+elem =         |77|  index |5|  rrb |false|  ins_cost |2|  rra_ct |0|  ra_ct|2|  total_cost |5|
+cur_min_cost = |0|
+pop_val = |71|
+BEFORE_min_cost = |0|
+elem =         |78|  index |6|  rrb |false|  ins_cost |2|  rra_ct |0|  ra_ct|2|  total_cost |6|
+cur_min_cost = |0|
+pop_val = |71|
+BEFORE_min_cost = |0|
+elem =         |17|  index |6|  rrb |true|  ins_cost |2|  rra_ct |2|  ra_ct|0|  total_cost |6|
+cur_min_cost = |0|
+pop_val = |71|
+BEFORE_min_cost = |0|
+elem =         |35|  index |5|  rrb |true|  ins_cost |1|  rra_ct |1|  ra_ct|0|  total_cost |5|
+cur_min_cost = |0|
+pop_val = |71|
+BEFORE_min_cost = |0|
+elem =         |23|  index |4|  rrb |true|  ins_cost |1|  rra_ct |1|  ra_ct|0|  total_cost |4|
+cur_min_cost = |0|
+pop_val = |71|
+BEFORE_min_cost = |0|
+elem =         |64|  index |3|  rrb |true|  ins_cost |2|  rra_ct |0|  ra_ct|2|  total_cost |3|
+cur_min_cost = |0|
+pop_val = |71|
+BEFORE_min_cost = |0|
+elem =         |24|  index |2|  rrb |true|  ins_cost |1|  rra_ct |1|  ra_ct|0|  total_cost |2|
+cur_min_cost = |0|
+pop_val = |71|
+BEFORE_min_cost = |0|
+elem =         |72|  index |1|  rrb |true|  ins_cost |2|  rra_ct |0|  ra_ct|2|  total_cost |1|
+cur_min_cost = |0|
+pop_val = |71|
+FINAL_min_cost = |0|
+FINAL_pop_val = |71|
+val |71|   rra_ct |0|   ra_ct |2|
+{ roll A }
+{ do ra (>head)}
+{ roll A }
+{ do ra (>head)}
+sort loop #6
+ct = |6|  pop_cost = |0|
+----a----
+71
+87
+98
+9
+18
+37
+47
+62
+----b----
+76
+68
+29
+91
+77
+78
+17
+35
+23
+64
+24
+72
+BEFORE_min_cost = |0|
+elem =         |76|  index |0|  rrb |false|  ins_cost |1|  rra_ct |0|  ra_ct|1|  total_cost |0|
+cur_min_cost = |0|
+pop_val = |76|
+BEFORE_min_cost = |0|
+elem =         |68|  index |1|  rrb |false|  ins_cost |1|  rra_ct |0|  ra_ct|0|  total_cost |2|
+cur_min_cost = |0|
+pop_val = |76|
+BEFORE_min_cost = |0|
+elem =         |29|  index |2|  rrb |false|  ins_cost |3|  rra_ct |3|  ra_ct|0|  total_cost |5|
+cur_min_cost = |0|
+pop_val = |76|
+BEFORE_min_cost = |0|
+elem =         |91|  index |3|  rrb |false|  ins_cost |2|  rra_ct |0|  ra_ct|2|  total_cost |3|
+cur_min_cost = |0|
+pop_val = |76|
+BEFORE_min_cost = |0|
+elem =         |77|  index |4|  rrb |false|  ins_cost |1|  rra_ct |0|  ra_ct|1|  total_cost |4|
+cur_min_cost = |0|
+pop_val = |76|
+BEFORE_min_cost = |0|
+elem =         |78|  index |5|  rrb |false|  ins_cost |1|  rra_ct |0|  ra_ct|1|ra
+pa
+rra
+pa
+  total_cost |5|
+cur_min_cost = |0|
+pop_val = |76|
+BEFORE_min_cost = |0|
+elem =         |17|  index |6|  rrb |true|  ins_cost |4|  rra_ct |4|  ra_ct|0|  total_cost |6|
+cur_min_cost = |0|
+pop_val = |76|
+BEFORE_min_cost = |0|
+elem =         |35|  index |5|  rrb |true|  ins_cost |3|  rra_ct |3|  ra_ct|0|  total_cost |5|
+cur_min_cost = |0|
+pop_val = |76|
+BEFORE_min_cost = |0|
+elem =         |23|  index |4|  rrb |true|  ins_cost |3|  rra_ct |3|  ra_ct|0|  total_cost |4|
+cur_min_cost = |0|
+pop_val = |76|
+BEFORE_min_cost = |0|
+elem =         |64|  index |3|  rrb |true|  ins_cost |1|  rra_ct |0|  ra_ct|0|  total_cost |4|
+cur_min_cost = |0|
+pop_val = |76|
+BEFORE_min_cost = |0|
+elem =         |24|  index |2|  rrb |true|  ins_cost |3|  rra_ct |3|  ra_ct|0|  total_cost |2|
+cur_min_cost = |0|
+pop_val = |76|
+BEFORE_min_cost = |0|
+elem =         |72|  index |1|  rrb |true|  ins_cost |1|  rra_ct |0|  ra_ct|1|  total_cost |1|
+cur_min_cost = |0|
+pop_val = |76|
+FINAL_min_cost = |0|
+FINAL_pop_val = |76|
+val |76|   rra_ct |0|   ra_ct |1|
+{ roll A }
+{ do ra (>head)}
+sort loop #7
+ct = |7|  pop_cost = |0|
+----a----
+76
+87
+98
+9
+18
+37
+47
+62
+71
+----b----
+68
+29
+91
+77
+78
+17
+35
+23
+64
+24
+72
+BEFORE_min_cost = |0|
+elem =         |68|  index |0|  rrb |false|  ins_cost |1|  rra_ct |1|  ra_ct|0|  total_cost |1|
+cur_min_cost = |0|
+pop_val = |68|
+BEFORE_min_cost = |0|
+elem =         |29|  index |1|  rrb |false|  ins_cost |4|  rra_ct |4|  ra_ct|0|  total_cost |5|
+cur_min_cost = |0|
+pop_val = |68|
+BEFORE_min_cost = |0|
+elem =         |91|  index |2|  rrb |false|  ins_cost |2|  rra_ct |0|  ra_ct|2|  total_cost |2|
+cur_min_cost = |0|
+pop_val = |68|
+BEFORE_min_cost = |0|
+elem =         |77|  index |3|  rrb |false|  ins_cost |1|  rra_ct |0|  ra_ct|1|  total_cost |3|
+cur_min_cost = |0|
+pop_val = |68|
+BEFORE_min_cost = |0|
+elem =         |78|  index |4|  rrb |false|  ins_cost |1|  rra_ct |0|  ra_ct|1|  total_cost |4|
+cur_min_cost = |0|
+pop_val = |68|
+BEFORE_min_cost = |0|
+elem =         |17|  index |5|  rrb |false|  ins_cost |4|  rra_ct |0|  ra_ct|4|  total_cost |5|
+cur_min_cost = |0|
+pop_val = |68|
+BEFORE_min_cost = |0|
+elem =         |35|  index |5|  rrb |true|  ins_cost |4|  rra_ct |4|  ra_ct|0|  total_cost |5|
+cur_min_cost = |0|
+pop_val = |68|
+BEFORE_min_cost = |0|
+elem =         |23|  index |4|  rrb |true|  ins_cost |4|  rra_ct |4|  ra_ct|0|  total_cost |4|
+cur_min_cost = |0|
+pop_val = |68|
+BEFORE_min_cost = |0|
+elem =         |64|  index |3|  rrb |true|  ins_cost |1|  rra_ct |1|  ra_ct|0|  total_cost |3|
+cur_min_cost = |0|
+pop_val = |68|
+BEFORE_min_cost = |0|
+elem =         |24|  index |2|  rrb |true|  ins_cost |4|  rra_ct |4|  ra_ct|0|  total_cost |2|
+cur_min_cost = |0|
+pop_val = |68|
+BEFORE_min_cost = |0|
+elem =         |72|  index |1|  rrb |true|  ins_cost |1|  rra_ct |0|  ra_ct|0|  total_cost |2|
+cur_min_cost = |0|
+pop_val = |68|
+FINAL_min_cost = |0|
+FINAL_pop_val = |68|
+val |68|   rra_ct |1|   ra_ct |0|
+{ do rra (<tail)}
+sort loop #8
+ct = |8|  pop_cost = |0|
+----a----
+68
+71
+76
+87
+98
+9
+18
+37
+47
+62
+----b----
+29
+91
+77
+78
+17
+35
+23
+64
+24
+72
+BEFORE_min_cost = |0|
+elem =         |29|  index |0|  rrb |false|  ins_cost |3|  rra_ct |3|  ra_ct|0|  total_cost |3|
+cur_min_cost = |0|
+pop_val = |29|
+BEFORE_min_cost = |0|
+elem =         |91|  index |1|  rrb |false|  ins_cost |4|  rra_ct |0|  ra_ct|4|  total_cost |1|
+cur_min_cost = |0|
+pop_val = |29|
+BEFORE_min_cost = |0|
+elem =         |77|  index |2|  rrb |false|  ins_cost |3|  rra_ct |0|  ra_ct|3|  total_cost |2|
+cur_min_cost = |0|
+pop_val = |29|
+BEFORE_min_cost = |0|
+elem =         |78|  index |3|  rrb |false|  ins_cost |3|  rra_ct |0|  ra_ct|3|  total_cost |3|
+cur_min_cost = |0|
+pop_val = |29|
+BEFORE_min_cost = |0|
+elem =         |17|  index |4|  rrb |false|  ins_cost |4|  rra_ct |4|  ra_ct|0|  total_cost |8|
+cur_min_cost = |0|
+pop_val = |29|
+BEFORE_min_cost = |0|
+elem =         |35|  index |5|  rrb |true|  ins_cost |3|  rra_ct |3|  ra_ct|0|  total_cost |5|
+cur_min_cost = |0|
+pop_val = |29|
+BEFORE_min_cost = |0|
+elem =         |23|  index |4|  rrb |true|  ins_cost |3|  rra_ct |3|  ra_ct|0|  total_cost |4|
+cur_min_costrra
+rra
+rra
+pa
+pa
+pa
+ = |0|
+pop_val = |29|
+BEFORE_min_cost = |0|
+elem =         |64|  index |3|  rrb |true|  ins_cost |1|  rra_ct |0|  ra_ct|0|  total_cost |4|
+cur_min_cost = |0|
+pop_val = |29|
+BEFORE_min_cost = |0|
+elem =         |24|  index |2|  rrb |true|  ins_cost |3|  rra_ct |3|  ra_ct|0|  total_cost |2|
+cur_min_cost = |0|
+pop_val = |29|
+BEFORE_min_cost = |0|
+elem =         |72|  index |1|  rrb |true|  ins_cost |2|  rra_ct |0|  ra_ct|2|  total_cost |1|
+cur_min_cost = |0|
+pop_val = |29|
+FINAL_min_cost = |0|
+FINAL_pop_val = |29|
+val |29|   rra_ct |3|   ra_ct |0|
+{ do rra (<tail)}
+{ do rra (<tail)}
+{ do rra (<tail)}
+sort loop #9
+ct = |9|  pop_cost = |0|
+----a----
+29
+37
+47
+62
+68
+71
+76
+87
+98
+9
+18
+----b----
+91
+77
+78
+17
+35
+23
+64
+24
+72
+BEFORE_min_cost = |0|
+elem =         |91|  index |0|  rrb |false|  ins_cost |3|  rra_ct |3|  ra_ct|0|  total_cost |3|
+cur_min_cost = |0|
+pop_val = |91|
+BEFORE_min_cost = |0|
+elem =         |77|  index |1|  rrb |false|  ins_cost |4|  rra_ct |4|  ra_ct|0|  total_cost |5|
+cur_min_cost = |0|
+pop_val = |91|
+BEFORE_min_cost = |0|
+elem =         |78|  index |2|  rrb |false|  ins_cost |4|  rra_ct |4|  ra_ct|0|  total_cost |6|
+cur_min_cost = |0|
+pop_val = |91|
+BEFORE_min_cost = |0|
+elem =         |17|  index |3|  rrb |false|  ins_cost |1|  rra_ct |1|  ra_ct|0|  total_cost |4|
+cur_min_cost = |0|
+pop_val = |91|
+BEFORE_min_cost = |0|
+elem =         |35|  index |4|  rrb |false|  ins_cost |1|  rra_ct |0|  ra_ct|1|  total_cost |4|
+cur_min_cost = |0|
+pop_val = |91|
+BEFORE_min_cost = |0|
+elem =         |23|  index |4|  rrb |true|  ins_cost |1|  rra_ct |0|  ra_ct|0|  total_cost |5|
+cur_min_cost = |0|
+pop_val = |91|
+BEFORE_min_cost = |0|
+elem =         |64|  index |3|  rrb |true|  ins_cost |4|  rra_ct |0|  ra_ct|4|  total_cost |3|
+cur_min_cost = |0|
+pop_val = |91|
+BEFORE_min_cost = |0|
+elem =         |24|  index |2|  rrb |true|  ins_cost |1|  rra_ct |0|  ra_ct|0|  total_cost |3|
+cur_min_cost = |0|
+pop_val = |91|
+BEFORE_min_cost = |0|
+elem =         |72|  index |1|  rrb |true|  ins_cost |5|  rra_ct |5|  ra_ct|0|  total_cost |1|
+cur_min_cost = |0|
+pop_val = |91|
+FINAL_min_cost = |0|
+FINAL_pop_val = |91|
+val |91|   rra_ct |0|   ra_ct |0|
+sort loop #10
+ct = |10|  pop_cost = |0|
+----a----
+91
+29
+37
+47
+62
+68
+71
+76
+87
+98
+9
+18
+----b----
+77
+78
+17
+35
+23
+64
+24
+72
+BEFORE_min_cost = |0|
+elem =         |77|  index |0|  rrb |false|  ins_cost |1|  rra_ct |0|  ra_ct|0|  total_cost |1|
+cur_min_cost = |0|
+pop_val = |77|
+BEFORE_min_cost = |0|
+elem =         |78|  index |1|  rrb |false|  ins_cost |1|  rra_ct |0|  ra_ct|0|  total_cost |2|
+cur_min_cost = |0|
+pop_val = |77|
+BEFORE_min_cost = |0|
+elem =         |17|  index |2|  rrb |false|  ins_cost |1|  rra_ct |1|  ra_ct|0|  total_cost |3|
+cur_min_cost = |0|
+pop_val = |77|
+BEFORE_min_cost = |0|
+elem =         |35|  index |3|  rrb |false|  ins_cost |1|  rra_ct |0|  ra_ct|0|  total_cost |4|
+cur_min_cost = |0|
+pop_val = |77|
+BEFORE_min_cost = |0|
+elem =         |23|  index |4|  rrb |true|  ins_cost |1|  rra_ct |0|  ra_ct|0|  total_cost |5|
+cur_min_cost = |0|
+pop_val = |77|
+BEFORE_min_cost = |0|
+elem =         |64|  index |3|  rrb |true|  ins_cost |1|  rra_ct |0|  ra_ct|0|  total_cost |4|
+cur_min_cost = |0|
+pop_val = |77|
+BEFORE_min_cost = |0|
+elem =         |24|  index |2|  rrb |true|  ins_cost |1|  rra_ct |0|  ra_ct|0|  total_cost |3|
+cur_min_cost = |0|
+pop_val = |77|
+BEFORE_min_cost = |0|
+elem =         |72|  index |1|  rrb |true|  ins_cost |1|  rra_ct |0|  ra_ct|0|  total_cost |2|
+cur_min_cost = |0|
+pop_val = |77|
+FINAL_min_cost = |0|
+FINAL_pop_val = |77|
+val |77|   rra_ct |0|   ra_ct |0|
+sort loop #11
+ct = |11|  pop_cost = |0|
+----a----
+77
+91
+29
+37
+47
+62
+68
+71
+76
+87
+98
+9
+18
+----b----
+78
+17
+35
+23
+64
+24
+72
+BEFORE_min_cost = |0|
+elem =         |78|  index |0|  rrb |false|  ins_cost |1|  rra_ct |0|  ra_ct|1|  total_cost |0|
+cur_min_cost = |0|
+pop_val = |78|
+BEFORE_min_cost = |0|
+elem =         |17|  index |1|  rrb |false|  ins_cost |1|  rra_ct |1|  ra_ct|0|  total_cost |2|
+cur_min_cost = |0|
+pop_val = |78|
+BEFORE_min_cost = |0|
+elem =         |35|  index |2|  rrb |false|  ins_cost |1|  rra_ct |0|  ra_ct|0|  tra
+pa
+rra
+rra
+pa
+ra
+ra
+pa
+pa
+otal_cost |3|
+cur_min_cost = |0|
+pop_val = |78|
+BEFORE_min_cost = |0|
+elem =         |23|  index |3|  rrb |false|  ins_cost |1|  rra_ct |0|  ra_ct|0|  total_cost |4|
+cur_min_cost = |0|
+pop_val = |78|
+BEFORE_min_cost = |0|
+elem =         |64|  index |3|  rrb |true|  ins_cost |1|  rra_ct |0|  ra_ct|0|  total_cost |4|
+cur_min_cost = |0|
+pop_val = |78|
+BEFORE_min_cost = |0|
+elem =         |24|  index |2|  rrb |true|  ins_cost |1|  rra_ct |0|  ra_ct|0|  total_cost |3|
+cur_min_cost = |0|
+pop_val = |78|
+BEFORE_min_cost = |0|
+elem =         |72|  index |1|  rrb |true|  ins_cost |1|  rra_ct |0|  ra_ct|0|  total_cost |2|
+cur_min_cost = |0|
+pop_val = |78|
+FINAL_min_cost = |0|
+FINAL_pop_val = |78|
+val |78|   rra_ct |0|   ra_ct |1|
+{ roll A }
+{ do ra (>head)}
+sort loop #12
+ct = |12|  pop_cost = |0|
+----a----
+78
+91
+29
+37
+47
+62
+68
+71
+76
+87
+98
+9
+18
+77
+----b----
+17
+35
+23
+64
+24
+72
+BEFORE_min_cost = |0|
+elem =         |17|  index |0|  rrb |false|  ins_cost |2|  rra_ct |2|  ra_ct|0|  total_cost |2|
+cur_min_cost = |0|
+pop_val = |17|
+BEFORE_min_cost = |0|
+elem =         |35|  index |1|  rrb |false|  ins_cost |1|  rra_ct |1|  ra_ct|0|  total_cost |2|
+cur_min_cost = |0|
+pop_val = |17|
+BEFORE_min_cost = |0|
+elem =         |23|  index |2|  rrb |false|  ins_cost |1|  rra_ct |1|  ra_ct|0|  total_cost |3|
+cur_min_cost = |0|
+pop_val = |17|
+BEFORE_min_cost = |0|
+elem =         |64|  index |3|  rrb |true|  ins_cost |1|  rra_ct |1|  ra_ct|0|  total_cost |3|
+cur_min_cost = |0|
+pop_val = |17|
+BEFORE_min_cost = |0|
+elem =         |24|  index |2|  rrb |true|  ins_cost |1|  rra_ct |1|  ra_ct|0|  total_cost |2|
+cur_min_cost = |0|
+pop_val = |17|
+BEFORE_min_cost = |0|
+elem =         |72|  index |1|  rrb |true|  ins_cost |1|  rra_ct |1|  ra_ct|0|  total_cost |1|
+cur_min_cost = |0|
+pop_val = |17|
+FINAL_min_cost = |0|
+FINAL_pop_val = |17|
+val |17|   rra_ct |2|   ra_ct |0|
+{ do rra (<tail)}
+{ do rra (<tail)}
+sort loop #13
+ct = |13|  pop_cost = |0|
+----a----
+17
+18
+77
+78
+91
+29
+37
+47
+62
+68
+71
+76
+87
+98
+9
+----b----
+35
+23
+64
+24
+72
+BEFORE_min_cost = |0|
+elem =         |35|  index |0|  rrb |false|  ins_cost |2|  rra_ct |0|  ra_ct|2|  total_cost |0|
+cur_min_cost = |0|
+pop_val = |35|
+BEFORE_min_cost = |0|
+elem =         |23|  index |1|  rrb |false|  ins_cost |2|  rra_ct |0|  ra_ct|2|  total_cost |1|
+cur_min_cost = |0|
+pop_val = |35|
+BEFORE_min_cost = |0|
+elem =         |64|  index |2|  rrb |false|  ins_cost |2|  rra_ct |0|  ra_ct|2|  total_cost |2|
+cur_min_cost = |0|
+pop_val = |35|
+BEFORE_min_cost = |0|
+elem =         |24|  index |2|  rrb |true|  ins_cost |2|  rra_ct |0|  ra_ct|2|  total_cost |2|
+cur_min_cost = |0|
+pop_val = |35|
+BEFORE_min_cost = |0|
+elem =         |72|  index |1|  rrb |true|  ins_cost |2|  rra_ct |0|  ra_ct|2|  total_cost |1|
+cur_min_cost = |0|
+pop_val = |35|
+FINAL_min_cost = |0|
+FINAL_pop_val = |35|
+val |35|   rra_ct |0|   ra_ct |2|
+{ roll A }
+{ do ra (>head)}
+{ roll A }
+{ do ra (>head)}
+sort loop #14
+ct = |14|  pop_cost = |0|
+----a----
+35
+77
+78
+91
+29
+37
+47
+62
+68
+71
+76
+87
+98
+9
+17
+18
+----b----
+23
+64
+24
+72
+BEFORE_min_cost = |0|
+elem =         |23|  index |0|  rrb |false|  ins_cost |1|  rra_ct |0|  ra_ct|0|  total_cost |1|
+cur_min_cost = |0|
+pop_val = |23|
+BEFORE_min_cost = |0|
+elem =         |64|  index |1|  rrb |false|  ins_cost |1|  rra_ct |0|  ra_ct|1|  total_cost |1|
+cur_min_cost = |0|
+pop_val = |23|
+BEFORE_min_cost = |0|
+elem =         |24|  index |2|  rrb |true|  ins_cost |1|  rra_ct |0|  ra_ct|0|  total_cost |3|
+cur_min_cost = |0|
+pop_val = |23|
+BEFORE_min_cost = |0|
+elem =         |72|  index |1|  rrb |true|  ins_cost |1|  rra_ct |0|  ra_ct|1|  total_cost |1|
+cur_min_cost = |0|
+pop_val = |23|
+FINAL_min_cost = |0|
+FINAL_pop_val = |23|
+val |23|   rra_ct |0|   ra_ct |0|
+sort loop #15
+ct = |15|  pop_cost = |0|
+----a----
+23
+35
+77
+78
+91
+29
+37
+47
+62
+68
+71
+76
+87
+98
+9
+17
+18
+----b----
+64
+24
+72
+BEFORE_min_cost = |0|
+elem =         |64|  index |0|  rrb |false|  ins_cost |2|  rra_ct |0|  ra_ct|2|  total_cost |0|
+cur_min_cost = |0|
+pop_val = |64|
+BEFORE_min_cost = |0|
+elem =         |24|  index |1|  rrb |false|  ins_cost |1|  rra_ct |0|  ra_ct|1|  total_cost |1|
+ra
+ra
+pa
+rra
+pa
+ra
+ra
+ra
+pa
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+cur_min_cost = |0|
+pop_val = |64|
+BEFORE_min_cost = |0|
+elem =         |72|  index |1|  rrb |true|  ins_cost |2|  rra_ct |0|  ra_ct|2|  total_cost |1|
+cur_min_cost = |0|
+pop_val = |64|
+FINAL_min_cost = |0|
+FINAL_pop_val = |64|
+val |64|   rra_ct |0|   ra_ct |2|
+{ roll A }
+{ do ra (>head)}
+{ roll A }
+{ do ra (>head)}
+sort loop #16
+ct = |16|  pop_cost = |0|
+----a----
+64
+77
+78
+91
+29
+37
+47
+62
+68
+71
+76
+87
+98
+9
+17
+18
+23
+35
+----b----
+24
+72
+BEFORE_min_cost = |0|
+elem =         |24|  index |0|  rrb |false|  ins_cost |1|  rra_ct |1|  ra_ct|0|  total_cost |1|
+cur_min_cost = |0|
+pop_val = |24|
+BEFORE_min_cost = |0|
+elem =         |72|  index |1|  rrb |true|  ins_cost |1|  rra_ct |0|  ra_ct|1|  total_cost |1|
+cur_min_cost = |0|
+pop_val = |24|
+FINAL_min_cost = |0|
+FINAL_pop_val = |24|
+val |24|   rra_ct |1|   ra_ct |0|
+{ do rra (<tail)}
+sort loop #17
+ct = |17|  pop_cost = |0|
+----a----
+24
+35
+64
+77
+78
+91
+29
+37
+47
+62
+68
+71
+76
+87
+98
+9
+17
+18
+23
+----b----
+72
+BEFORE_min_cost = |0|
+elem =         |72|  index |0|  rrb |false|  ins_cost |3|  rra_ct |0|  ra_ct|3|  total_cost |0|
+cur_min_cost = |0|
+pop_val = |72|
+FINAL_min_cost = |0|
+FINAL_pop_val = |72|
+val |72|   rra_ct |0|   ra_ct |3|
+{ roll A }
+{ do ra (>head)}
+{ roll A }
+{ do ra (>head)}
+{ roll A }
+{ do ra (>head)}
+FINAL STACKS
+FINAL op_ct = |66|
+----a----
+9
+17
+18
+23
+24
+35
+64
+72
+77
+78
+91
+29
+37
+47
+62
+68
+71
+76
+87
+98
+----b----
