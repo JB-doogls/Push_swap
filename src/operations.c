@@ -6,7 +6,7 @@
 /*   By: jbdoogls <jbdoogls@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/05/13 15:24:20 by jbdoogls          #+#    #+#             */
-/*   Updated: 2020/05/15 20:51:53 by jbdoogls         ###   ########.fr       */
+/*   Updated: 2020/05/26 19:06:02 by jbdoogls         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 int         handle_s(t_stack **stack)
 {
     int     tmp;
-    
+
     if ((*stack)->head && (*stack)->head->next)
     {
         tmp = (*stack)->head->val;
@@ -38,7 +38,7 @@ int         handle_p(t_stack **from, t_stack **to)
 
 int         handle_r(t_stack **stack)
 {
-    if ((*stack)->head && (*stack)->head->next) // do we need check stack->prev??
+    if ((*stack)->head && (*stack)->head->next)
     {
         push_back(stack, pop_front(stack));
         return (0);
@@ -48,7 +48,7 @@ int         handle_r(t_stack **stack)
 
 int         handle_rr(t_stack **stack)
 {
-    if ((*stack)->head && (*stack)->head->next) // do we need check stack->prev??
+    if ((*stack)->head && (*stack)->head->next)
     {
         push_front(stack, pop_back(stack));
         return (0);
@@ -78,16 +78,5 @@ int         parse_operations(char *op, t_frame *stor)
         ret = handle_rr(&stor->a);
     if (len = 3 && (!ft_strcmp(op, "rrb") || !ft_strcmp(op, "rrr")))
         ret = handle_rr(&stor->b);
-    return (ret);
-}
-
-int     do_operation(char *op, t_frame *stor)
-{
-    int     ret;
-    ret = 0;
-    if (ret = parse_operations(op, stor))
-        return(ret);
-    stor->op_ct++;
-    print_op(op);
     return (ret);
 }

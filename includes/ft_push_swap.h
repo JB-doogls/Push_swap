@@ -6,7 +6,7 @@
 /*   By: jbdoogls <jbdoogls@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/05/07 13:50:35 by jbdoogls          #+#    #+#             */
-/*   Updated: 2020/05/22 19:54:30 by jbdoogls         ###   ########.fr       */
+/*   Updated: 2020/05/26 18:41:23 by jbdoogls         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -84,6 +84,7 @@ int                 handle_r(t_stack **stack);
 int                 handle_rr(t_stack **stack);
 
 int                 do_operation(char *op, t_frame *stor);
+
 /*
 **  validation & tools
 */
@@ -94,6 +95,7 @@ int                 is_duplicate(int val, t_stack *stack);          // rewrite t
 void                ft_put_err(t_frame **stor);
 
 void                print_op(char *op);
+void                check_operation(char *op, t_frame *stor);
 
 /*
 **  sort tools

@@ -1,10 +1,10 @@
+// valgrind --leak-check=full
+
 
 /*
 **      TODO
 
-**              - write sort for 5 (what about 4???)
-**              - write checker prog
-**              - when we check if_sorted? What we do if sorted on input? (now we work with sorted array !!!!!)
+**              - is_sorted : add checker for empty 'b' (correct sort = sorted 'a' & empty'b')
 */
 
 

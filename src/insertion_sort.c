@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   insertion.c                                        :+:      :+:    :+:   */
+/*   insertion_sort.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: jbdoogls <jbdoogls@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/05/18 14:40:21 by jbdoogls          #+#    #+#             */
-/*   Updated: 2020/05/22 20:13:28 by jbdoogls         ###   ########.fr       */
+/*   Updated: 2020/05/22 21:40:09 by jbdoogls         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -73,7 +73,7 @@ void        roll_stacks(t_frame *stor)
 **      1. Handle stack 'a' to push in stack 'b' pre-sorted elems;
 **      2. Find the best elem to push (find_lowcoster);
 **      3. Roll stacks to position for pushing. Than push to 'a' (pa);
-**      4. Roll stack 'a' back to get correct posotion;
+**      4. Roll stack 'a' back to get correct position;
 */
 
 void         insertion_sort(t_frame *stor)
@@ -81,7 +81,7 @@ void         insertion_sort(t_frame *stor)
     int     ct;
     size_t  size;
 
-    handle_a(stor);
+    // handle_a(stor);
     ct = 0;
     size = stor->b->size;
     while (ct < size)

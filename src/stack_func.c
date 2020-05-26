@@ -6,7 +6,7 @@
 /*   By: jbdoogls <jbdoogls@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/05/10 20:55:02 by jbdoogls          #+#    #+#             */
-/*   Updated: 2020/05/14 13:41:41 by jbdoogls         ###   ########.fr       */
+/*   Updated: 2020/05/26 17:13:49 by jbdoogls         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,10 +28,10 @@ void            free_stack(t_stack *stack)
 {
     t_node     *next;
     t_node     *tmp;
-    
+
     tmp = stack->head;
     next = NULL;
-    
+
     while (tmp)
     {
         next = tmp->next;
@@ -60,13 +60,11 @@ void     handle_arg(char *arg, t_frame *stor)
     int         num_ct;
     char        **split;
 
-    i = 0;
     split = NULL;
-    num_ct = ft_word_count(arg, ' ');
+    i = (num_ct = ft_word_count(arg, ' ')) - num_ct;
     if (num_ct == 1)
     {
-        val = validation(arg, stor);
-        if (push_back_val(&stor->a, val) == NULL)
+        if (!push_back_val(&stor->a, val = validation(arg, stor)))
             ft_put_err(&stor);
     }
     else
@@ -74,34 +72,13 @@ void     handle_arg(char *arg, t_frame *stor)
         split = ft_strsplit(arg, ' ');
         while (i < num_ct)
         {
-            val = validation(split[i], stor);
-            if (push_back_val(&stor->a, val) == NULL)
+            if (!push_back_val(&stor->a, val = validation(split[i], stor)))
                 ft_put_err(&stor);
-            free(split[i]);
-            i++;
+            free(split[i++]);
         }
     }
+    free(split);
 }
-
-//     av = (ac == 2 ? ft_strsplit(av[1], ' ') : av);
-//     ct = (ac == 2 ? 0 : 1);
-//     while ((ac == 2 ? (int)av[ct] : ct < ac))    // check if empty arg: push_swap "" "1 3 4" ..
-//     {
-//         val = ft_atoi(av[ct]);
-//         if (!is_valid_int(val, av[ct]) || !is_duplicate(val, stor->a))
-//         {
-//             ft_memdel((void*)(ac == 2 ? av : NULL));
-//             ft_put_err(&stor);
-//         }
-//         if (!push_back_val(stor->a, val))
-//         {
-//             ft_memdel((void*)(ac == 2 ? av : NULL));
-//             ft_put_err(&stor);
-//         }
-//         ct++;
-//     }
-//     ft_memdel((void*)(ac == 2 ? av : NULL));
-// }
 
 t_frame         *create_stack(int ac, char **av)
 {
