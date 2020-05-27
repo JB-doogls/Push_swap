@@ -6,7 +6,7 @@
 /*   By: jbdoogls <jbdoogls@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/05/07 13:50:35 by jbdoogls          #+#    #+#             */
-/*   Updated: 2020/05/27 15:55:25 by jbdoogls         ###   ########.fr       */
+/*   Updated: 2020/05/27 19:26:53 by jbdoogls         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,8 +15,6 @@
 
 # include "../libft/libft.h"
 # include <stdbool.h>
-# include <stdlib.h>        // DEL? - duplicate include in libft
-# include <stdio.h>         //  DEL - FOR CHECKING
 
 # define DO_A 1
 # define DO_NOT_A 0
@@ -33,7 +31,7 @@ typedef struct		s_node
 
 typedef struct		s_stack
 {
-	size_t			size;
+	int				size;
 	t_node			*head;
 	t_node			*tail;
 }					t_stack;
@@ -42,7 +40,7 @@ typedef struct		s_frame
 {
 	t_stack			*a;
 	t_stack			*b;
-	size_t			op_ct;
+	int				op_ct;
 	int				max;
 	int				min;
 	int				grt;
@@ -52,8 +50,8 @@ typedef struct		s_frame
 	int				ra;
 	int				rrb;
 	int				rb;
-	int				v;
-	int				c;
+	int				flag_v;
+	int				flag_c;
 }					t_frame;
 
 /*
@@ -64,7 +62,7 @@ t_frame				*create_stack(int ac, char **av);
 void				handle_arg(char *arg, t_frame *st);
 int					free_frame(t_frame **st);
 void				free_stack(t_stack *stack);
-t_stack				*create_stack_list(t_stack *stack);
+t_stack				*create_stack_list(void);
 void				init_stor_values(t_frame *st);
 
 /*
@@ -72,7 +70,7 @@ void				init_stor_values(t_frame *st);
 */
 
 t_node				*push_back_val(t_stack **stack, int val);
-void				*push_back(t_stack **stack, t_node *node);
+void				push_back(t_stack **stack, t_node *node);
 void				push_front(t_stack **stack, t_node *node);
 t_node				*pop_front(t_stack **stack);
 t_node				*pop_back(t_stack **stack);
@@ -131,7 +129,7 @@ void				roll_b(t_frame *st);
 
 /*
 **	visualisation
-**		flag -v : print stacks 'a', b' after each operation;
+**		flag -v : print stacks 'a'&'b' after each operation;
 **		flag -c : colorize operaion and stacks (if -v);
 **		usage: -c -v "integers"
 */

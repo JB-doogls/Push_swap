@@ -6,7 +6,7 @@
 /*   By: jbdoogls <jbdoogls@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/05/27 14:41:53 by jbdoogls          #+#    #+#             */
-/*   Updated: 2020/05/27 16:03:59 by jbdoogls         ###   ########.fr       */
+/*   Updated: 2020/05/27 19:27:41 by jbdoogls         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,12 +16,12 @@ void			is_visual_flags(char *arg, t_frame *st, int *i)
 {
 	if (!ft_strcmp(arg, "-v"))
 	{
-		st->v = 1;
+		st->flag_v = 1;
 		*i += 1;
 	}
 	else if (!ft_strcmp(arg, "-c"))
 	{
-		st->c = 1;
+		st->flag_c = 1;
 		*i += 1;
 	}
 }

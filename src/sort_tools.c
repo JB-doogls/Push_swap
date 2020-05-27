@@ -6,7 +6,7 @@
 /*   By: jbdoogls <jbdoogls@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/05/22 19:27:17 by jbdoogls          #+#    #+#             */
-/*   Updated: 2020/05/27 01:24:31 by jbdoogls         ###   ########.fr       */
+/*   Updated: 2020/05/27 18:58:56 by jbdoogls         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -110,7 +110,7 @@ int			find_direction_head(t_frame *st, int val)
 
 int			find_ins(t_frame *st, int val)
 {
-	size_t	ct;
+	int		ct;
 	int		cost;
 	t_node	*head;
 

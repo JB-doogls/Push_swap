@@ -6,7 +6,7 @@
 /*   By: jbdoogls <jbdoogls@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/05/10 22:06:44 by jbdoogls          #+#    #+#             */
-/*   Updated: 2020/05/27 13:44:33 by jbdoogls         ###   ########.fr       */
+/*   Updated: 2020/05/27 19:18:52 by jbdoogls         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ int			is_sorted(t_stack **st_a, t_stack **st_b)
 {
 	t_node		*h;
 	t_node		*t;
-	size_t		ct;
+	int			ct;
 
 	if ((*st_a) == NULL || (*st_b)->head != NULL)
 		return (1);
@@ -46,8 +46,6 @@ int			is_valid_int(int val, char *arg)
 	ret = 0;
 	ct = 0;
 	char_int = ft_itoa(val);
-	if (val < -2147483648 || val > 2147483647)
-		return (ret = 1);
 	if (ft_strcmp(char_int, arg))
 	{
 		free(char_int);

@@ -6,7 +6,7 @@
 /*   By: jbdoogls <jbdoogls@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/05/10 21:02:38 by jbdoogls          #+#    #+#             */
-/*   Updated: 2020/05/27 16:01:26 by jbdoogls         ###   ########.fr       */
+/*   Updated: 2020/05/27 19:27:33 by jbdoogls         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,23 +27,20 @@ t_node		*create_new_node(int val)
 
 int			do_operation(char *op, t_frame *st)
 {
-	int		ret;
-
-	ret = 0;
-	if (ret = parse_operations(op, st))
-		return (ret);
+	if (parse_operations(op, st))
+		return (1);
 	st->op_ct++;
 	print_op(op, st);
-	if (st->v && !st->c)
+	if (st->flag_v && !st->flag_c)
 		print_stacks(st);
-	else if (st->v && st->c)
+	else if (st->flag_v && st->flag_c)
 		print_color_stacks(st);
-	return (ret);
+	return (0);
 }
 
 void		ft_put_err(t_frame **st)
 {
-	if ((*st)->c)
+	if ((*st)->flag_c)
 		ft_putstr_color("Error\n", "red");
 	else
 		ft_putstr("Error\n");
@@ -63,13 +60,13 @@ void		init_stor_values(t_frame *st)
 	st->rra = 0;
 	st->rb = 0;
 	st->rrb = 0;
-	st->v = 0;
-	st->c = 0;
+	st->flag_v = 0;
+	st->flag_c = 0;
 }
 
 void		print_op(char *op, t_frame *st)
 {
-	if (st->c)
+	if (st->flag_c)
 		ft_putstr_color(op, "bold blue");
 	else
 		ft_putstr(op);

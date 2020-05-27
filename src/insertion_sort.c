@@ -6,7 +6,7 @@
 /*   By: jbdoogls <jbdoogls@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/05/26 23:51:40 by jbdoogls          #+#    #+#             */
-/*   Updated: 2020/05/26 23:53:55 by jbdoogls         ###   ########.fr       */
+/*   Updated: 2020/05/27 18:58:36 by jbdoogls         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -79,7 +79,7 @@ void		roll_stacks(t_frame *st)
 void		insertion_sort(t_frame *st)
 {
 	int		ct;
-	size_t	size;
+	int		size;
 
 	ct = 0;
 	size = st->b->size;

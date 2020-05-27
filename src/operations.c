@@ -6,7 +6,7 @@
 /*   By: jbdoogls <jbdoogls@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/05/13 15:24:20 by jbdoogls          #+#    #+#             */
-/*   Updated: 2020/05/27 00:30:47 by jbdoogls         ###   ########.fr       */
+/*   Updated: 2020/05/27 19:00:40 by jbdoogls         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -62,21 +62,21 @@ int			parse_operations(char *op, t_frame *st)
 	int		ret;
 
 	len = ft_strlen(op);
-	if (len = 2 && (!ft_strcmp(op, "sa") || !ft_strcmp(op, "ss")))
+	if (len == 2 && (!ft_strcmp(op, "sa") || !ft_strcmp(op, "ss")))
 		ret = handle_s(&st->a);
-	if (len = 2 && (!ft_strcmp(op, "sb") || !ft_strcmp(op, "ss")))
+	if (len == 2 && (!ft_strcmp(op, "sb") || !ft_strcmp(op, "ss")))
 		ret = handle_s(&st->b);
-	if (len = 2 && !ft_strcmp(op, "pa"))
+	if (len == 2 && !ft_strcmp(op, "pa"))
 		ret = handle_p(&st->b, &st->a);
-	if (len = 2 && !ft_strcmp(op, "pb"))
+	if (len == 2 && !ft_strcmp(op, "pb"))
 		ret = handle_p(&st->a, &st->b);
-	if (len = 2 && (!ft_strcmp(op, "ra") || !ft_strcmp(op, "rr")))
+	if (len == 2 && (!ft_strcmp(op, "ra") || !ft_strcmp(op, "rr")))
 		ret = handle_r(&st->a);
-	if (len = 2 && (!ft_strcmp(op, "rb") || !ft_strcmp(op, "rr")))
+	if (len == 2 && (!ft_strcmp(op, "rb") || !ft_strcmp(op, "rr")))
 		ret = handle_r(&st->b);
-	if (len = 3 && (!ft_strcmp(op, "rra") || !ft_strcmp(op, "rrr")))
+	if (len == 3 && (!ft_strcmp(op, "rra") || !ft_strcmp(op, "rrr")))
 		ret = handle_rr(&st->a);
-	if (len = 3 && (!ft_strcmp(op, "rrb") || !ft_strcmp(op, "rrr")))
+	if (len == 3 && (!ft_strcmp(op, "rrb") || !ft_strcmp(op, "rrr")))
 		ret = handle_rr(&st->b);
 	return (ret);
 }

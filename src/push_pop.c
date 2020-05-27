@@ -6,7 +6,7 @@
 /*   By: jbdoogls <jbdoogls@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/05/13 15:37:46 by jbdoogls          #+#    #+#             */
-/*   Updated: 2020/05/27 00:39:20 by jbdoogls         ###   ########.fr       */
+/*   Updated: 2020/05/27 19:21:10 by jbdoogls         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,7 +47,7 @@ t_node		*pop_front(t_stack **stack)
 void		push_front(t_stack **stack, t_node *node)
 {
 	if (node == NULL)
-		;
+		return ;
 	node->next = (*stack)->head;
 	node->prev = NULL;
 	if ((*stack)->head)
@@ -58,7 +58,7 @@ void		push_front(t_stack **stack, t_node *node)
 	(*stack)->size++;
 }
 
-void		*push_back(t_stack **stack, t_node *node)
+void		push_back(t_stack **stack, t_node *node)
 {
 	node->next = NULL;
 	node->prev = (*stack)->tail;

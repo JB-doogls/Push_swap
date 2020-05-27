@@ -6,13 +6,13 @@
 /*   By: jbdoogls <jbdoogls@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/05/10 20:55:02 by jbdoogls          #+#    #+#             */
-/*   Updated: 2020/05/27 16:01:10 by jbdoogls         ###   ########.fr       */
+/*   Updated: 2020/05/27 19:22:07 by jbdoogls         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../includes/ft_push_swap.h"
 
-t_stack			*create_stack_list(t_stack *stack)
+t_stack			*create_stack_list(void)
 {
 	t_stack		*new;
 
@@ -21,7 +21,6 @@ t_stack			*create_stack_list(t_stack *stack)
 	new->size = 0;
 	new->head = NULL;
 	new->tail = NULL;
-	stack = new;
 	return (new);
 }
 
@@ -84,13 +83,12 @@ t_frame			*create_stack(int ac, char **av)
 {
 	t_frame		*st;
 	int			i;
-	int			j;
 
 	i = 1;
 	if (!(st = (t_frame*)malloc(sizeof(t_frame))))
 		ft_put_err(&st);
-	st->a = create_stack_list(st->a);
-	st->b = create_stack_list(st->b);
+	st->a = create_stack_list();
+	st->b = create_stack_list();
 	init_stor_values(st);
 	while (ac > i)
 	{

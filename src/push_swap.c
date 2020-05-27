@@ -6,7 +6,7 @@
 /*   By: jbdoogls <jbdoogls@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/05/10 20:45:13 by jbdoogls          #+#    #+#             */
-/*   Updated: 2020/05/27 01:11:38 by jbdoogls         ###   ########.fr       */
+/*   Updated: 2020/05/27 19:20:20 by jbdoogls         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -69,18 +69,6 @@ int			main(int ac, char **av)
 		handle_a(st);
 		insertion_sort(st);
 	}
-/*
-**  ***************************************************
-**  sort check
-*/
-	printf("FINAL OP_CT = |%ld|\n", st->op_ct);
-
-	if (is_sorted(&st->a, &st->b))
-		printf("Unsorted\n");
-	else
-		printf("Sorted\n");
-//  ****************************************************
-
 	free_frame(&st);
 	return (0);
 }
