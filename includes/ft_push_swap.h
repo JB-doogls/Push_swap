@@ -6,7 +6,7 @@
 /*   By: jbdoogls <jbdoogls@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/05/07 13:50:35 by jbdoogls          #+#    #+#             */
-/*   Updated: 2020/05/27 01:20:41 by jbdoogls         ###   ########.fr       */
+/*   Updated: 2020/05/27 15:55:25 by jbdoogls         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -52,6 +52,8 @@ typedef struct		s_frame
 	int				ra;
 	int				rrb;
 	int				rb;
+	int				v;
+	int				c;
 }					t_frame;
 
 /*
@@ -95,7 +97,7 @@ int					validation(char *arg, t_frame *st);
 int					is_valid_int(int val, char *val_av);
 int					is_duplicate(int val, t_stack *stack);
 void				ft_put_err(t_frame **st);
-void				print_op(char *op);
+void				print_op(char *op, t_frame *st);
 void				check_operation(char *op, t_frame *st);
 void				reset_roll_flags(t_frame *st, int a_fl, int b_f);
 
@@ -126,5 +128,16 @@ void				pb_up_to_mid(t_frame *st, int mid);
 void				roll_stacks(t_frame *st);
 void				roll_a(t_frame *st);
 void				roll_b(t_frame *st);
+
+/*
+**	visualisation
+**		flag -v : print stacks 'a', b' after each operation;
+**		flag -c : colorize operaion and stacks (if -v);
+**		usage: -c -v "integers"
+*/
+
+void				is_visual_flags(char *arg, t_frame *st, int *i);
+void				print_stacks(t_frame *st);
+void				print_color_stacks(t_frame *st);
 
 #endif

@@ -54,6 +54,7 @@ FUNCTIONS = ft_memset \
 			ft_putendl_fd \
 			ft_putendl \
 			ft_putnbr_fd \
+			ft_putnbr_color \
 			ft_putnbr \
 			ft_strmap \
 			ft_strmapi \

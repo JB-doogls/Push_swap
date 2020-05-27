@@ -6,13 +6,13 @@
 /*   By: jbdoogls <jbdoogls@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/05/19 00:17:57 by jbdoogls          #+#    #+#             */
-/*   Updated: 2020/05/19 00:18:15 by jbdoogls         ###   ########.fr       */
+/*   Updated: 2020/05/27 12:40:00 by jbdoogls         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-unsigned int       ft_nbrmax(unsigned int x, unsigned int y)
+unsigned int		ft_nbrmax(unsigned int x, unsigned int y)
 {
-    return (x > y ? x : y);
+	return (x > y ? x : y);
 }

@@ -6,7 +6,7 @@
 /*   By: jbdoogls <jbdoogls@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/05/10 20:55:02 by jbdoogls          #+#    #+#             */
-/*   Updated: 2020/05/27 00:57:16 by jbdoogls         ###   ########.fr       */
+/*   Updated: 2020/05/27 16:01:10 by jbdoogls         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -56,7 +56,6 @@ int				free_frame(t_frame **st)
 void			handle_arg(char *arg, t_frame *st)
 {
 	int			i;
-	int			val;
 	int			num_ct;
 	char		**split;
 
@@ -65,7 +64,7 @@ void			handle_arg(char *arg, t_frame *st)
 	i = 0;
 	if (num_ct == 1)
 	{
-		if (!push_back_val(&st->a, val = validation(arg, st)))
+		if (!push_back_val(&st->a, validation(arg, st)))
 			ft_put_err(&st);
 	}
 	else
@@ -73,7 +72,7 @@ void			handle_arg(char *arg, t_frame *st)
 		split = ft_strsplit(arg, ' ');
 		while (i < num_ct)
 		{
-			if (!push_back_val(&st->a, val = validation(split[i], st)))
+			if (!push_back_val(&st->a, validation(split[i], st)))
 				ft_put_err(&st);
 			free(split[i++]);
 		}
@@ -94,6 +93,10 @@ t_frame			*create_stack(int ac, char **av)
 	st->b = create_stack_list(st->b);
 	init_stor_values(st);
 	while (ac > i)
+	{
+		is_visual_flags(av[i], st, &i);
+		is_visual_flags(av[i], st, &i);
 		handle_arg(av[i++], st);
+	}
 	return (st);
 }

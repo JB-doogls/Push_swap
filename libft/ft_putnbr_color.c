@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putstr_color.c                                  :+:      :+:    :+:   */
+/*   ft_putnbr_color.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: jbdoogls <jbdoogls@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/04/11 16:09:34 by jbdoogls          #+#    #+#             */
-/*   Updated: 2020/05/27 12:45:14 by jbdoogls         ###   ########.fr       */
+/*   Created: 2020/05/27 15:37:00 by jbdoogls          #+#    #+#             */
+/*   Updated: 2020/05/27 15:42:39 by jbdoogls         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,7 @@ static char		*ft_putstr_bold(char *color)
 	return (color);
 }
 
-void			ft_putstr_color(char const *str, char *color)
+void			ft_putnbr_color(int nbr, char *color)
 {
 	ft_putstr("\033[");
 	if (!ft_strcmp(color, "black"))
@@ -49,6 +49,6 @@ void			ft_putstr_color(char const *str, char *color)
 	else
 		color = ft_putstr_bold(color);
 	ft_putstr(color);
-	ft_putstr(str);
+	ft_putnbr(nbr);
 	ft_putstr("\033[0m");
 }

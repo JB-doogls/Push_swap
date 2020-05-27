@@ -6,7 +6,7 @@
 /*   By: jbdoogls <jbdoogls@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/10 19:22:48 by edoll             #+#    #+#             */
-/*   Updated: 2020/05/22 03:10:06 by jbdoogls         ###   ########.fr       */
+/*   Updated: 2020/05/27 15:44:02 by jbdoogls         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,7 @@
 # include <string.h>
 # include <stdlib.h>
 # include <unistd.h>
+# include <fcntl.h>
 
 /*
 **	MEM FUNCTIONS
@@ -77,6 +78,7 @@ void			ft_putstr(char const *s);
 void			ft_putstr_color(char const *str, char *color);
 void			ft_putendl_fd(char const *s, int fd);
 void			ft_putendl(char const *s);
+void			ft_putnbr_color(int nbr, char *color);
 void			ft_putnbr_fd(int n, int fd);
 void			ft_putnbr(int n);
 
@@ -121,8 +123,6 @@ void			ft_lstinsert_after(t_list *target, t_list *new);
 */
 
 # define BUFF_SIZE 8
-# include <fcntl.h>
-# include "libft.h"
 
 typedef struct	s_list_gnl
 {
@@ -134,12 +134,5 @@ typedef struct	s_list_gnl
 int				get_next_line(const int fd, char **line);
 t_gnl			*ft_lstnewset(int fd);
 char			*ft_strjoin_free(char *s1, char const *s2);
-
-// /*
-// **	PRINTF
-// */
-
-// void				ft_putnstr(char const *str, size_t len);
-// size_t				ft_strnlen(char const *str, size_t len);
 
 #endif
