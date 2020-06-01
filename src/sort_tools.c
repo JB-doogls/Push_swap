@@ -6,11 +6,11 @@
 /*   By: jbdoogls <jbdoogls@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/05/22 19:27:17 by jbdoogls          #+#    #+#             */
-/*   Updated: 2020/05/27 18:58:56 by jbdoogls         ###   ########.fr       */
+/*   Updated: 2020/06/01 14:22:59 by jbdoogls         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/ft_push_swap.h"
+#include "ft_push_swap.h"
 
 void		reset_roll_flags(t_frame *st, int a_fl, int b_fl)
 {

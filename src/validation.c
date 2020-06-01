@@ -6,11 +6,11 @@
 /*   By: jbdoogls <jbdoogls@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/05/10 22:06:44 by jbdoogls          #+#    #+#             */
-/*   Updated: 2020/05/27 19:18:52 by jbdoogls         ###   ########.fr       */
+/*   Updated: 2020/06/01 14:23:15 by jbdoogls         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/ft_push_swap.h"
+#include "ft_push_swap.h"
 
 int			is_sorted(t_stack **st_a, t_stack **st_b)
 {

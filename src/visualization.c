@@ -6,11 +6,11 @@
 /*   By: jbdoogls <jbdoogls@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/05/27 14:41:53 by jbdoogls          #+#    #+#             */
-/*   Updated: 2020/05/27 19:27:41 by jbdoogls         ###   ########.fr       */
+/*   Updated: 2020/06/01 14:23:21 by jbdoogls         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/ft_push_swap.h"
+#include "ft_push_swap.h"
 
 void			is_visual_flags(char *arg, t_frame *st, int *i)
 {

@@ -73,7 +73,6 @@ FUNCTIONS = ft_memset \
 			ft_strrev \
 			ft_itoa \
 			ft_itoa_base \
-			ft_itoa_base_count \
 			ft_lstnew \
 			ft_lstdelone \
 			ft_lstdel \
@@ -86,19 +85,22 @@ FUNCTIONS = ft_memset \
 			ft_lstnewset \
 			ft_strjoin_free \
 			get_next_line
+
+			# ft_itoa_base_count
+
 OBJ = $(patsubst %,%.o,$(FUNCTIONS))
 SRC = $(patsubst %,%.c,$(FUNCTIONS))
 CC = gcc
 CFLAGS = -Wall -Wextra -Werror
 NAME = libft.a
-HEAD = libft.h
+HEAD = libft
 
 .PHONY: all clean fclean re
 
 all: $(NAME)
 
 $(OBJ): %.o : %.c
-	$(CC) $(CFLAGS) -c $< -I $(HEAD)
+	$(CC) $(CFLAGS) -c $< -I $(HEAD)%.h
 $(NAME): $(OBJ)
 	ar rc $(NAME) $(OBJ)
 

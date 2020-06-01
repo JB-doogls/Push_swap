@@ -6,15 +6,14 @@
 /*   By: jbdoogls <jbdoogls@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/05/07 13:50:35 by jbdoogls          #+#    #+#             */
-/*   Updated: 2020/05/27 19:26:53 by jbdoogls         ###   ########.fr       */
+/*   Updated: 2020/06/01 14:23:25 by jbdoogls         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef FT_PUSH_SWAP_H
 # define FT_PUSH_SWAP_H
 
-# include "../libft/libft.h"
-# include <stdbool.h>
+# include "libft.h"
 
 # define DO_A 1
 # define DO_NOT_A 0

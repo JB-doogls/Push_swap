@@ -6,11 +6,11 @@
 /*   By: jbdoogls <jbdoogls@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/05/26 16:01:07 by jbdoogls          #+#    #+#             */
-/*   Updated: 2020/05/27 00:12:55 by jbdoogls         ###   ########.fr       */
+/*   Updated: 2020/06/01 14:22:09 by jbdoogls         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/ft_push_swap.h"
+#include "ft_push_swap.h"
 
 void	check_operation(char *op, t_frame *st)
 {

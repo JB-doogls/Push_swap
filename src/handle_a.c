@@ -6,11 +6,11 @@
 /*   By: jbdoogls <jbdoogls@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/05/22 02:42:17 by jbdoogls          #+#    #+#             */
-/*   Updated: 2020/05/26 23:47:17 by jbdoogls         ###   ########.fr       */
+/*   Updated: 2020/06/01 14:22:16 by jbdoogls         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/ft_push_swap.h"
+#include "ft_push_swap.h"
 
 /*
 **  Find counts of elems that current elem less than

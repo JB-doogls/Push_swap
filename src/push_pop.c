@@ -6,11 +6,11 @@
 /*   By: jbdoogls <jbdoogls@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/05/13 15:37:46 by jbdoogls          #+#    #+#             */
-/*   Updated: 2020/05/27 19:21:10 by jbdoogls         ###   ########.fr       */
+/*   Updated: 2020/06/01 14:22:40 by jbdoogls         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/ft_push_swap.h"
+#include "ft_push_swap.h"
 
 t_node		*pop_back(t_stack **stack)
 {

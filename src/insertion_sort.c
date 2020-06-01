@@ -6,11 +6,11 @@
 /*   By: jbdoogls <jbdoogls@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/05/26 23:51:40 by jbdoogls          #+#    #+#             */
-/*   Updated: 2020/05/27 18:58:36 by jbdoogls         ###   ########.fr       */
+/*   Updated: 2020/06/01 14:22:23 by jbdoogls         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/ft_push_swap.h"
+#include "ft_push_swap.h"
 
 void		roll_a(t_frame *st)
 {
