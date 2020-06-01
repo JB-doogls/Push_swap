@@ -93,16 +93,18 @@ SRC = $(patsubst %,%.c,$(FUNCTIONS))
 CC = gcc
 CFLAGS = -Wall -Wextra -Werror
 NAME = libft.a
-HEAD = libft
+HEAD = libft.h
 
 .PHONY: all clean fclean re
 
 all: $(NAME)
 
 $(OBJ): %.o : %.c
-	$(CC) $(CFLAGS) -c $< -I $(HEAD)%.h
+	$(CC) $(CFLAGS) -c $<
+
 $(NAME): $(OBJ)
 	ar rc $(NAME) $(OBJ)
+	@ranlib $(NAME)
 
 clean:
 	/bin/rm -f $(OBJ)
