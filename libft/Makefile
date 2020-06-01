@@ -10,6 +10,7 @@
 #                                                                              #
 # **************************************************************************** #
 
+
 FUNCTIONS = ft_memset \
 			ft_bzero \
 			ft_memcpy \
@@ -86,16 +87,19 @@ FUNCTIONS = ft_memset \
 			ft_strjoin_free \
 			get_next_line
 
-			# ft_itoa_base_count
+OBJ		= $(patsubst %,%.o,$(FUNCTIONS))
+SRC		= $(patsubst %,%.c,$(FUNCTIONS))
+CC		= gcc
+CFLAGS	= -Wall -Wextra -Werror
+NAME	= libft.a
+HEAD	= libft.h
 
-OBJ = $(patsubst %,%.o,$(FUNCTIONS))
-SRC = $(patsubst %,%.c,$(FUNCTIONS))
-CC = gcc
-CFLAGS = -Wall -Wextra -Werror
-NAME = libft.a
-HEAD = libft.h
-
-.PHONY: all clean fclean re
+# ---- Colors ----
+RED		= "\033[0;31m"
+GREEN	= "\033[0;32m"
+CYAN	= "\033[0;36m"
+EOC		= "\033[0m"
+# ================
 
 all: $(NAME)
 
@@ -103,14 +107,19 @@ $(OBJ): %.o : %.c
 	$(CC) $(CFLAGS) -c $<
 
 $(NAME): $(OBJ)
+	@echo $(GREEN) "object files libft created" $(EOC)
 	ar rc $(NAME) $(OBJ)
+	@echo $(GREEN) "static lib file created" $(EOC)
 	@ranlib $(NAME)
 
 clean:
 	/bin/rm -f $(OBJ)
+	@echo $(RED) "libft object files deleted" $(EOC)
 
 fclean: clean
 	/bin/rm -f $(NAME)
+	@echo $(RED) "libft static lib file deleted" $(EOC)
 
 re: fclean all
 
+.PHONY: all clean fclean re
