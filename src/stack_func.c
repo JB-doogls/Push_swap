@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   stack_func.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jbdoogls <jbdoogls@student.42.fr>          +#+  +:+       +#+        */
+/*   By: user <user@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/05/10 20:55:02 by jbdoogls          #+#    #+#             */
-/*   Updated: 2020/06/01 14:23:04 by jbdoogls         ###   ########.fr       */
+/*   Updated: 2020/08/08 20:02:43 by user             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -59,7 +59,7 @@ void			handle_arg(char *arg, t_frame *st)
 	char		**split;
 
 	split = NULL;
-	num_ct = ft_word_count(arg, ' ');
+	*arg == '\0' ? ft_put_err(&st) : (num_ct = ft_word_count(arg, ' '));
 	i = 0;
 	if (num_ct == 1)
 	{
